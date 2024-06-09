@@ -72,6 +72,10 @@ Ref: users.id < follows.followed_user_id
         displayName: 'One Light',
         name: 'one-light',
       },
+      {
+        displayName: '2077 theme (endormi)',
+        name: 'endormi-2077',
+      },
     ];
 
   themeSelectElement!.innerHTML = themes
