@@ -107,6 +107,9 @@ Ref: users.id < follows.followed_user_id
 
           monaco.editor.defineTheme(theme.name, convertedTheme);
           monaco.editor.setTheme(theme.name);
+
+          // clear warning message
+          document.querySelector('mark')?.remove()
         }
       }
     );
